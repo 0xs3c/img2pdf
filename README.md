@@ -15,7 +15,7 @@ A fast CLI tool to convert multiple images (JPG, PNG, WEBP, BMP, TIFF) into a si
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/img2pdf-cli.git
+git clone https://github.com/0xs3c/img2pdf.git
 cd img2pdf-cli
 
 # Install in editable mode
