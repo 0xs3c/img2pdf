@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "img2pdf-cli"
+version = "1.0.0"
+description = "CLI tool to convert multiple images into a single ordered PDF"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+dependencies = [
+    "Pillow>=10.0.0",
+    "click>=8.0.0",
+    "tqdm>=4.60.0",
+]
+
+[project.scripts]
+img2pdf = "img2pdf_cli.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["img2pdf_cli*"]
